@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: url(./image/pink-balloons-with-circular-empty-canvas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.overlay {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background: rgba(0, 0, 0, .8);
+}
+.container{
+    text-align: center;
+}
+.contact-header h1{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+a {
+    color: #fff;
+}
+.contact-inputs {
+    background: white;
+    flex-wrap: wrap;
+    flex: 1 1;
+    margin-bottom: 2rem;
+    border-radius: 0.7em;
+}
+.contact-inputs input {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: .7rem;
+    border-radius: .3rem ;
+    border: .1rem solid #ececec;
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 1em;
+}
+.contact-btn button{
+    align-items: center;
+    padding: .8rem;
+    background-color: #FF9EAA;
+    color: #fff;
+    border-radius: 1rem ;
+    border: 0;
+
+}
+.CLH {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.callus {
+    width: 40%;
+    background-color: #FF9EAA;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 49%;
+}
+.location{
+    background-color: #FF9EAA;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 48%;
+}
+.hours{
+    background-color: #FF9EAA;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 48%;
+}
+h4 {
+    margin-bottom: 1rem;
+}
